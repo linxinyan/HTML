@@ -47,7 +47,7 @@
     </ol>
 ol，即ordered list（有序列表）；li，即list（列表项）   
 `<ol>标签的子标签只能是li标签`  <br>
-默认采用数字顺序，若想改变列表项符号，可<ol type="属性值"></ol>，属性值为1、a、A、i、I（CSS中用list-style-type实现列表项符号改变）
+默认采用数字顺序，若想改变列表项符号，通过`<ol type="属性值"></ol>`，属性值为1、a、A、i、I（CSS中用list-style-type实现列表项符号改变）
 #### 2、无序列表
     <ul>
         <li>列表项</li>
@@ -56,7 +56,7 @@ ol，即ordered list（有序列表）；li，即list（列表项）
     </ul>
  ul，即unordered list（无序列表）   
 `ul标签的子标签也只能是li标签 ; ul元素内部的文本，只能在li元素内部添加，不能在li元素外部添加 ` <br>
-默认情况下，无序列表的列表项符号是●，改变列表符号：<ul type="属性值"></ul> （CSS中用list-style-type实现列表项符号改变）
+默认情况下，无序列表的列表项符号是●，改变列表符号通过：`<ul type="属性值"></ul>`（CSS中用list-style-type实现列表项符号改变）
 #### 3、定义列表
     <dl>
         <dt>名词</dt>
